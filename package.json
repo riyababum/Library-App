@@ -13,8 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon app.js"
-  },
+    "start": "node app.js"
+},
   "author": "aiswarya",
   "license": "ISC"
 }
