@@ -55,10 +55,6 @@ app.get('/',function(req,res){
     
 });
 
+var port = app.listen(process.env.PORT || 3000);
 
-
-
-
-app.listen(5000,()=>{
-    console.log("Server Ready on 5000");
-});
+app.listen(port);
