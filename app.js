@@ -55,6 +55,6 @@ app.get('/',function(req,res){
     
 });
 
-var port = app.listen(process.env.PORT || 3000);
-
-app.listen(port);
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Server started on port 3000");
+});
